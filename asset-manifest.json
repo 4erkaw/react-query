@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-query/static/css/main.48461b27.css",
+    "main.js": "/react-query/static/js/main.cb3cb2cd.js",
+    "index.html": "/react-query/index.html",
+    "main.48461b27.css.map": "/react-query/static/css/main.48461b27.css.map",
+    "main.cb3cb2cd.js.map": "/react-query/static/js/main.cb3cb2cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48461b27.css",
+    "static/js/main.cb3cb2cd.js"
+  ]
+}
