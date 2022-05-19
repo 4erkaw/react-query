@@ -1,0 +1,18 @@
+.container {
+  font-size: 40;
+  color: '#010101';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: color 250ms ease, border color 250ms ease;
+  min-width: 300px;
+}

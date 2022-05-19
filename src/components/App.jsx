@@ -1,4 +1,7 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
+import Home from './Home';
+import User from './User';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -11,7 +14,9 @@ const queryClient = new QueryClient({
 export function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <h1>HElLo</h1>
+      <Home />
+      <User />
+      <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
 }
